@@ -1,0 +1,42 @@
+Indeedy
+
+Curious about whether Ruby on Rails developer positions are trending up in
+Vancouver over the past six months?
+
+Indeedy graphs trends in job postings from Indeed.com API
+for programming languages over a given period for a given location.
+
+Design
+
+- Indeedy::Fetcher
+
+    Purpose
+    - fetches job listings in XML format from Indeed API
+
+    Operation
+    - for each job listing:
+        - store the data elements from the Indeed API in a database
+        - fetch the full job listing from the original job posting
+        - store the full job description
+
+    Assumptions
+    - each job listing has a unique jobkey identifier
+    - the programming language must be in the title of the job posting
+
+
+
+- Indeedy::Classifier
+
+    - analyzes attributes of job listing (title, key words, "required skills",
+    etc. ) to determine the primary language required for the position.
+
+
+- Indeedy::HMI
+    Purpose
+    - gonna need some kind of HMI, probably a web page
+
+
+- Indeedy::Grapher
+
+    Purpose
+    - display the selected trends as a graph
