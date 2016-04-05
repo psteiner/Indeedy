@@ -3,7 +3,6 @@ use warnings;
 use 5.10.0;
 
 # PODNAME: indeedy.pl
+# ABSTRACT: command line interface to Indeedy
 
-use Indeedy::Fetcher;
-Indeedy::Fetcher->run();
 

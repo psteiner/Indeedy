@@ -1,0 +1,28 @@
+# NAME
+
+Indeedy - Graphs trends in software job postings on indeed.com
+
+# VERSION
+
+version 1.160950
+
+# SYNOPSIS
+
+Main module for Indeedy
+
+# METHODS
+
+## fetch
+
+Fetch job postings from Indeed
+
+# AUTHOR
+
+Philip Steiner <philip@psteiner.com>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2016 by Philip Steiner.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.

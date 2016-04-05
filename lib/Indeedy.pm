@@ -1,14 +1,27 @@
 package Indeedy;
 
-use strict;
-use warnings;
-use 5.10.0;
+# use strict;
+# use warnings;
+# use 5.10.0;
+use Moose;
 
-# ABSTRACT: 
+# ABSTRACT: Graphs trends in software job postings on indeed.com
 
-sub run
+=head1 SYNOPSIS
+
+Main module for Indeedy
+
+=method fetch
+
+Fetch job postings from Indeed
+
+=cut
+
+sub fetch
 {
-    print "$0 $VERSION is running!\n";
+    print "fetching jobs!\n";
 }
 
+
+sub
 1;

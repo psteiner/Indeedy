@@ -8,6 +8,8 @@ for programming languages over a given period for a given location.
 
 Design
 
+- Indeedy
+
 - Indeedy::Fetcher
 
     Purpose
